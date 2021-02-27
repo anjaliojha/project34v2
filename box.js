@@ -8,7 +8,7 @@ class Box{
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
         this.height = height;
-       // this.image = loadImage("sprites/base.png");
+       //this.image = loadImage("pro-34+images/Superhero-01.png");
         World.add(world, this.body);
       }
       display(){
@@ -19,7 +19,7 @@ class Box{
         rectMode(CENTER);
         strokeWeight(4);
         stroke("green")
-        fill("255")
+        fill("red")
         rect(0, 0, this.width, this.height);
         pop();
       }

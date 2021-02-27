@@ -19,7 +19,7 @@ class Rope{
             push();
            stroke(48,22,8)
            strokeWeight(3)
-                line(pointB.x , pointB.y, pointA.x, pointA.y );
+              //  line(pointB.x , pointB.y, pointA.x, pointA.y );
                
            
             
